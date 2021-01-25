@@ -1,13 +1,6 @@
 <template>
-  <div>
-    <Hello></Hello>
-  </div>
+  <router-view></router-view>
 </template>
 <script>
-import Hello from "@/components/hello.vue";
-export default {
-  components: {
-    Hello,
-  },
-};
+export default {};
 </script>
